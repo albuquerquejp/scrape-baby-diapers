@@ -1,0 +1,5 @@
+pandas==2.1.0
+prefect==2.13.0
+psycopg2-binary
+requests==2.31.0
+Scrapy==2.10.1
