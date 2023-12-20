@@ -17,5 +17,5 @@ For this project, since everything is containerized and managed through Docker C
 
 ### 4. Starting the Containers
 - Build the custom Prefect Server image with the required requirements:`sudo docker compose --profile server up -d`
-- Access the Prefect CLI using this command: `sudo docker compose --profile server up -d`
+- Access the Prefect CLI using this command: `sudo docker compose run cli`
 - Deploy your first flow: `python3 prefect_flow.py`
